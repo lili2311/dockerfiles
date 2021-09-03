@@ -9,7 +9,7 @@
 #	--name vlc \
 #	jess/vlc
 #
-FROM debian:bullseye-slim
+FROM debian:11-slim
 LABEL maintainer "Jessie Frazelle <jess@linux.com>"
 
 RUN apt-get update && apt-get install -y \
