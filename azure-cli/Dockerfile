@@ -1,4 +1,4 @@
-FROM python:3-alpine
+FROM python:3.11.0a2-alpine
 LABEL maintainer "Jessie Frazelle <jess@linux.com>"
 
 RUN apk add --no-cache \
