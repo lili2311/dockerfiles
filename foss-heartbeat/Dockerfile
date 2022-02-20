@@ -1,4 +1,4 @@
-FROM python:3-alpine
+FROM python:3.11.0a5-alpine
 
 RUN apk add --no-cache \
 	ca-certificates \
