@@ -24,7 +24,7 @@ RUN git checkout "${TERRAFORM_VERSION}"
 RUN XC_ARCH="amd64" XC_OS="linux" LD_FLAGS=" -extldflags -static" make fmt bin \
 	&& mv bin/terraform /usr/bin/terraform
 
-FROM alpine:latest
+FROM alpine:3.15
 
 RUN apk add --no-cache \
 	bash \
