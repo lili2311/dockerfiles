@@ -3,7 +3,7 @@ RUN apk add --no-cache \
 	git
 RUN git clone https://github.com/brendandburns/cl-k8s.git /cl-k8s
 
-FROM debian:bullseye-slim
+FROM debian:11-slim
 LABEL maintainer "Jessie Frazelle <jess@linux.com>"
 
 RUN apt-get update && apt-get install -y \
