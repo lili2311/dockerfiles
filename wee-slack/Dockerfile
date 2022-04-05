@@ -11,7 +11,7 @@
 # 			-v "${HOME}/.weechat:/home/user/.weechat" \
 # 			wee-slack
 #
-FROM alpine:latest
+FROM alpine:3.15.4
 
 RUN apk add --no-cache \
 	ca-certificates \
