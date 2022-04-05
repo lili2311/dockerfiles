@@ -14,7 +14,7 @@ RUN go get github.com/kellegous/go || true \
 	&& mv go /usr/bin/go
 
 
-FROM alpine:latest
+FROM alpine:3.15.4
 
 COPY --from=builder /usr/bin/go /usr/bin/go
 COPY --from=builder /etc/ssl/certs/ /etc/ssl/certs
