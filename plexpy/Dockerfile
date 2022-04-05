@@ -5,7 +5,7 @@
 #  -v <path to local plexpy data>:/data \
 #  -p 8181:8181 \
 #  r.j3ss.co/plexpy
-FROM alpine:latest
+FROM alpine:3.15.4
 
 # Install required packages.
 RUN apk add --no-cache \
