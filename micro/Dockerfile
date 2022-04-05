@@ -17,7 +17,7 @@ WORKDIR /go/src/github.com/zyedidia/micro
 
 RUN make install
 
-FROM alpine:latest
+FROM alpine:3.15.4
 
 COPY --from=builder /go/bin/micro /usr/bin/micro
 COPY --from=builder /etc/ssl/certs/ /etc/ssl/certs
