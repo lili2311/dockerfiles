@@ -6,7 +6,7 @@
 #
 
 # Base docker image
-FROM debian:bullseye-slim
+FROM debian:11-slim
 LABEL maintainer "Jessie Frazelle <jess@linux.com>"
 
 # Install all the things
