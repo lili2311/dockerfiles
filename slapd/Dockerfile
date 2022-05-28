@@ -24,7 +24,7 @@
 # Be aware that by default the LDAP port is accessible from anywhere if the \
 # host firewall is unconfigured.
 #
-FROM debian:bullseye-slim
+FROM debian:11.3-slim
 LABEL maintainer "Jessie Frazelle <jess@linux.com>"
 
 RUN apt-get update && LC_ALL=C DEBIAN_FRONTEND=noninteractive \
