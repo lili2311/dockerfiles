@@ -1,4 +1,4 @@
-FROM debian:bullseye-slim
+FROM debian:11.3-slim
 LABEL maintainer "Jessie Frazelle <jess@linux.com>"
 
 # Install bash and other deps so we have them.
