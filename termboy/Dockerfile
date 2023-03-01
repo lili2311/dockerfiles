@@ -17,7 +17,7 @@
 #
 
 # Base docker image
-FROM debian:bullseye-slim
+FROM debian:11.6-slim
 LABEL maintainer "Jessie Frazelle <jess@linux.com>"
 
 ENV DEBIAN_FRONTEND noninteractive
