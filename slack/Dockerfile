@@ -14,7 +14,7 @@
 #	--name slack \
 #	jess/slack "$@"
 
-FROM debian:bullseye-slim
+FROM debian:11.6-slim
 LABEL maintainer "Jessie Frazelle <jess@linux.com>"
 
 ENV LC_ALL en_US.UTF-8
