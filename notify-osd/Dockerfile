@@ -17,7 +17,7 @@
 #	--name notify-osd \
 #	jess/notify-osd
 
-FROM debian:bullseye-slim
+FROM debian:11.6-slim
 LABEL maintainer "Jessie Frazelle <jess@linux.com>"
 
 RUN apt-get update && apt-get install -y \
