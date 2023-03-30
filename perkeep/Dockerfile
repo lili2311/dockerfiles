@@ -14,7 +14,7 @@ RUN mkdir -p /go/src/perkeep.org \
 	&& cp -vr /go/bin/* /usr/local/bin/ \
 	&& echo "Build complete."
 
-FROM alpine:latest
+FROM alpine:3.17.3
 
 RUN	apk --no-cache add \
 	ca-certificates
