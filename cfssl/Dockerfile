@@ -24,7 +24,7 @@ RUN set -x && \
 	go build ../cmd/multirootca && \
 	echo "Build complete."
 
-FROM alpine:latest
+FROM alpine:3.17.3
 
 COPY --from=builder /go/src/github.com/cloudflare/cfssl_trust /etc/cfssl
 COPY --from=builder /go/src/github.com/cloudflare/cfssl/bin/ /usr/bin
