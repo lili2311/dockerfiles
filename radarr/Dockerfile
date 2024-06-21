@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.20.1
 LABEL maintainer "Jessie Frazelle <jess@linux.com>"
 
 ENV LANG "en_US.UTF-8"
