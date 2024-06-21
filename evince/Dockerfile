@@ -7,7 +7,7 @@
 #	evince
 #
 
-FROM alpine:latest
+FROM alpine:3.20.1
 LABEL maintainer "Christian Koep <christiankoep@gmail.com>"
 
 RUN apk --no-cache add \
