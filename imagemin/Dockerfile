@@ -6,7 +6,7 @@
 #	--entrypoint bash \
 #	jess/imagemin
 #
-FROM node:alpine
+FROM node:22.5.1-alpine3.20
 LABEL maintainer "Jessie Frazelle <jess@linux.com>"
 
 RUN apk --no-cache add \
